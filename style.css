@@ -1,0 +1,352 @@
+@import "https://fonts.googleapis.com/css?family=Cambo";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #4d3951;
+    color: #67727a;
+    font-family: 'Cambo', serif;
+
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1px;
+    color: #f5f5f5;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+
+h4 {
+    font-size: 100%;
+    
+}
+p {
+    font-family: 'Cambo', serif;
+    color: #f5f5f5;
+    font-size: 160%;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+header {
+    background-color: #392c3d;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 100%;
+    opacity: 0.99;
+}
+
+#header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo {
+    margin: 0px;
+    height: 0px;
+    float:;
+    width: 0px;
+    background: url(#) no-repeat center;
+}
+
+nav {
+    text-align: center;
+    padding: 25px 20px 0 0;
+}
+
+#menu-ikoon {
+    display: hidden;
+    width:40px;
+    height:40px;
+    background: url(http://i.imgur.com/BSJATuj.png) center;
+}
+
+a:hover#menu-ikoon {
+    border-radius:4px 4px 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    font-family: 'Cambo', serif;
+    font-size: 150%;
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px 5px 20px;
+    font-size: 35px;
+}   
+
+.btn {
+    background-color:#3c2f47;
+    border:1px solid #241d13;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Cambo', serif;
+    font-size:25px;
+    font-weight:bold;
+    padding:10px 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color:#3c2f47;
+}
+.btn:active {
+    position:relative;
+    top:1px;
+}
+
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #6e4e75;
+}
+
+.Banner {
+    font-family: 'Cambo', serif;
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px 5px 20px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+}
+
+.pilt {
+    width: 100%;
+    background-color: #392c3d;
+}
+
+.siseminekast {
+    float: left;
+    width: 97%;
+    background-color: #392c3d;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+	border: 2px solid #241d13;
+}
+
+article {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+    background-color: #4d3951;
+}
+
+#Toode1 {
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+    background-color: #392c3d;
+}
+
+#Toode2 {
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+.siseminekast2 {
+    float: left;
+    width: 97%;
+    background-color: #392c3d;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+	border: 2px solid #241d13;
+}
+
+#Toode3{
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+#Toode4 {
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+.Siseminekast3 {
+    float: left;
+    width: auto;
+    background-color: #392c3d;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+	border: 2px solid #241d13;
+}
+
+#Toode5 {
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+#Toode6 {
+    background-color: #392c3d;
+    display: inline-block;
+    margin: 0px 2% 80px 2%;
+    text-align: center;
+    width: 45%;
+}
+
+#Muuta {
+    background-color: #392c3d;
+    padding: 0 0 1%;
+    clear: both;
+}
+
+footer {
+    background-color: #392c3d;
+    width: 100%;
+    border-bottom: 2px solid #241d13;
+	border-top: 2px solid #241d13;
+    font-size: 100%;
+}
+
+.sots {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sots li {
+    display: inline;
+    margin: 2px 100px 2px 100px;
+}
+
+
+footer.copyright {
+    border-top: 1px solid black;
+    background-color: #544b59;
+    max-height: 55px;
+    margin: 0;
+    text-align: center;
+}
+
+footer.copyright p {
+    padding: 5px 0 9px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 125%;
+    }
+    p {
+        font-size: 120%;
+    }
+    header {
+        position: absolute;
+    }
+    #logo {
+        margin: 15px 0px 20px 25px;
+        background: url(#) no-repeat center;
+    }
+    #menu-ikoon {
+        display: inline-block;
+        float: right;
+		margin: 20px;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        z-index: 1005;
+        position: absolute;
+        padding: 20px;
+        background: #6991ac;
+        right: 20px;
+        top: 60px;
+        bottom: 1px solid #fff;
+        border-radius: 2px 0 2px 2px;
+        width: 50%;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .pilt {
+        padding-top: 86px;
+    }
+    article {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .sots {
+		width: 20px;
+		height: 20px;
+		display: inline;
+    }
+}
